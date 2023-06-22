@@ -1,312 +1,642 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restraunt</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="navbar-container container">
-          <input type="checkbox" name="" id="">
-          <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-          </div>
-          <ul class="menu-items">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#food">Category</a></li>
-              <li><a href="#food-menu">Menu</a></li>
-              <li><a href="#testimonials">Testimonial</a></li>
-              <li><a href="#contact">Contact</a></li>
-          </ul>
-          <h1 class="logo">RS</h1>
-      </div>
-  </nav>
-    <section class="showcase-area" id="showcase">
-      <div class="showcase-container">
-        <h1 class="main-title" id="home">Eat Right Food</h1>
-        <p>Eat Healty, it is good for our health.</p>
-        <a href="#food-menu" class="btn btn-primary">Menu</a>
-      </div>
-    </section>
 
-    <section id="about">
-      <div class="about-wrapper container">
-        <div class="about-text">
-          <p class="small">About Us</p>
-          <h2>We've beem making healthy food last for 10 years</h2>
-          <p>
-           Emphasizes fruits, vegetables, whole grains, and fat-free or low-fat milk and milk products. Includes a variety of protein foods such as seafood, lean meats and poultry, eggs, legumes (beans and peas), soy products, nuts, and seeds. Is low in added sugars, sodium, saturated fats, trans fats, and cholesterol.
-          </p>
-        </div>
-        <div class="about-img">
-          <img src="https://5.imimg.com/data5/AK/RA/MY-68428614/apple-500x500.jpg" />
-        </div>
-      </div>
-    </section>
-    <section id="food">
-      <h2>Types of food</h2>
-      <div class="food-container container">
-        <div class="food-type fruite">
-          <div class="img-container">
-             <img src="https://thumbs.dreamstime.com/z/mix-fruits-vegetables-10601543.jpg"/>
-             <div class="img-content">
-              <h3>fruite</h3>
-              <a
-                href="https://en.wikipedia.org/wiki/Fruit"
-                class="btn btn-primary"
-                target="blank"
-                >learn more</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="food-type vegetable">
-          <div class="img-container">
-            <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
-            <div class="img-content">
-              <h3>vegetable</h3>
-              <a
-                href="https://en.wikipedia.org/wiki/Vegetable"
-                class="btn btn-primary"
-                target="blank"
-                >learn more</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="food-type grin">
-          <div class="img-container">
-            <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
-            <div class="img-content">
-              <h3>grin</h3>
-              <a
-                href="https://en.wikipedia.org/wiki/Grain"
-                class="btn btn-primary"
-                target="blank"
-                >learn more</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="food-menu">
-      <h2 class="food-menu-heading">Food Menu</h2>
-      <div class="food-menu-container container">
-        <div class="food-menu-item">
-          <div class="food-img">
-            <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
-          </div>
-          <div class="food-description">
-            <h2 class="food-titile">Food Menu Item 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
-            </p>
-            <p class="food-price">Price: &#8377; 250</p>
-          </div>
-        </div>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SRAVANI</title>
+</head>
 
-        <div class="food-menu-item">
-          <div class="food-img">
-            <img
-              src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg"
-              alt="error"
-            />
-          </div>
-          <div class="food-description">
-            <h2 class="food-titile">Food Menu Item 2</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
-            </p>
-            <p class="food-price">Price: &#8377; 250</p>
-          </div>
-        </div>
-        <div class="food-menu-item">
-          <div class="food-img">
-            <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
-          </div>
-          <div class="food-description">
-            <h2 class="food-titile">Food Menu Item 3</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
-            </p>
-            <p class="food-price">Price: &#8377; 250</p>
-          </div>
-        </div>
-        <div class="food-menu-item">
-          <div class="food-img">
-            <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" />
-          </div>
-          <div class="food-description">
-            <h2 class="food-titile">Food Menu Item 4</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
-            </p>
-            <p class="food-price">Price: &#8377; 250</p>
-          </div>
-        </div>
-        <div class="food-menu-item">
-          <div class="food-img">
-            <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" />
-          </div>
-          <div class="food-description">
-            <h2 class="food-titile">Food Menu Item 5</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
-            </p>
-            <p class="food-price">Price: &#8377; 250</p>
-          </div>
-        </div>
-        <div class="food-menu-item">
-          <div class="food-img">
-            <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" />
-          </div>
-          <div class="food-description">
-            <h2 class="food-titile">Food Menu Item 6</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-              quae.
-            </p>
-            <p class="food-price">Price: &#8377; 250</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="testimonials">
-      <h2 class="testimonial-title">What Our Customers Say</h2>
-      <div class="testimonial-container container">
-        <div class="testimonial-box">
-          <div class="customer-detail">
-            <div class="customer-photo">
-              <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
-              <p class="customer-name">Ross Lee</p>
-            </div>
-          </div>
-          <div class="star-rating">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-          <p class="testimonial-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-            voluptas cupiditate aspernatur odit doloribus non.
-          </p>
-         
-        </div>
-        <div class="testimonial-box">
-          <div class="customer-detail">
-            <div class="customer-photo">
-              <img
-                src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg"
-                alt=""
-              />
-              <p class="customer-name">Amelia Watson</p>
-            </div>
-          </div>
-          <div class="star-rating">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-          <p class="testimonial-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-            voluptas cupiditate aspernatur odit doloribus non.
-          </p>
-         
-        </div>
-        <div class="testimonial-box">
-          <div class="customer-detail">
-            <div class="customer-photo">
-              <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
-              <p class="customer-name">Ben Roy</p>
-            </div>
-          </div>
-          <div class="star-rating">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-          <p class="testimonial-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-            voluptas cupiditate aspernatur odit doloribus non.
-          </p>
-         
-        </div>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="contact-container container">
-        <div class="contact-img">
-          <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
-        </div>
+<body>
+	
+<table id="header" border="0" width="100%"
+cellpadding="0" cellspacing="0" bgcolor="tomato">
+<tr>
+<td>
+				
+<table border="0" cellpadding="15"
+					
+cellspacing="0" width="90%" align="center">
+					
+<tr>
+						
+<td>
+							
 
-        <div class="form-container">
-          <h2>Contact Us</h2>
-          <input type="text" placeholder="Your Name" />
-          <input type="email" placeholder="E-Mail" />
-          <textarea
-            cols="30"
-            rows="6"
-            placeholder="Type Your Message"
-          ></textarea>
-          <a href="#" class="btn btn-primary">Submit</a>
-        </div>
-      </div>
-    </section>
-    <footer id="footer">
-      <h2>Restraunt &copy; all rights reserved</h2>
-    </footer>
-  </body>
+						
+</td>
+
+						
+<td>
+							
+<font face="Comic sans MS" size="6">
+								
+<b>Sravani</b>
+							
+</font>
+						
+</td>
+
+						<td width="15%">
+							
+						</td>
+
+						<td>
+							<a href="#home" style="text-decoration:none">
+								<font face="ariel" size="5" color=black>
+									Home
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#about" style="text-decoration:none">
+								<font face="ariel" size="5" color=black>
+									About
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#projects" style="text-decoration:none">
+								<font face="ariel" size="5" color=black>
+									Projects
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#achievements" style="text-decoration:none">
+								<font face="ariel" size="5" color=black>
+									Achievements
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#contact" style="text-decoration:none">
+								<font face="ariel" size="5" color=black>
+									Contact
+								</font>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function () {
-    
-      $("a").on("click", function (event) {
-     
-        if (this.hash !== "") {
-       
-          event.preventDefault();
+	<table id="home" border="1" width="100%"
+		cellpadding="20" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td align="center" valign="middle">
+							<h3>
+								<font face="Times New Roman" size="6" color="white">
+									Welcome to Sravani's website!
+								</font>
+							</h3>
 
-          var hash = this.hash;
+							<h2>
+								<font face="ariel" size="6" color="tomato">
+									
+								</font>
+							</h2>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Home end-->
 
-       
-          $("html, body").animate(
-            {
-              scrollTop: $(hash).offset().top,
-            },
-            800,
-            function () {
- 
-              window.location.hash = hash;
-            }
-          );
-        } 
-      });
-    });
-  </script>
+
+	<table id="about" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="ariel" size="7"
+								color="tomato">
+								About Me
+							</font>
+							<hr color="tomato" width="90">
+						</td>
+					</tr>
+
+					<tr>
+						<td width="40%">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAAE+CAMAAACk8jItAAAAclBMVEUAAAD////l5eV6enouLi6tra3w8PA1NTX7+/v39/ft7e3e3t4iIiJxcXHo6OiysrKenp6np6eRkZFcXFxNTU3T09MnJydXV1dpaWkTExO9vb2Xl5fLy8uGhoZhYWFubm5/f39BQUFISEgWFhbBwcHV1dX5AcYOAAADfUlEQVR4nO3beV+iQByAcQZSUTwgtQLxKO39v8VF08TdnOHwN8PuPt+/+eSTccxBngcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg3zf48uK64zfjRZDk0VCVhKMo7603A9dpnjfJRjdlN8L+Mpns3cXNs7tpJX5v7qRu+1ml7qTfs/6nXlSvO4kmVvOe69UdTQN7eYf6ecfCraW8vFFeYWnjPBz3m+YVEvG8lzZ5xR95Idw3apWn1Ew2r9mlUdITzdu2zRPum3a7b9I6T7Zv2e2+tH2eaF/7q0O2r9fxvgecfqJ998fyX0a9YLs2/BKCfamh7/zwf3XVp/9gdbgcpx29CvYZ7s7p5bg0dNO30+ZF1wN1p6Bg30rbV/rgtZs+/bg+vh646WJfaej+0sW+Q+lIN336sXPovM8wKy9NwDvZ178e6d81je//fOE+5Tte8TOP7jOnhW/GPqXy59T8g4R8VOgrruPP9bujQNP479swC54c9NVa24hi6aWWP8zq9B2/xtmb1T79AOtHo8Tiybiv31eI1tYCa66KXwxjSzcd3cBTLxnb6NPOLAzfoZX1+7hx3+0AUUyb1WffwmacYQ6s17cwfNBP4kyBFq7jNqegmsr3tbjJKDsXybjNOpuVjcxJ88vYt9FXzEUa7yO92gn0JlGzPvktwov3WeUBdYmlP/BJOmmwF2z5DZngUPNisTccvHiN/Rp9mfW+wmCdVb1ehi76jsa7Sjfu0N0M3nuKK4xg3bxQdJYmxj6xSed+F9z3/WAdmK5nsZH+k+5Tr6f9wND37KSvtDxp2Od03mf4Ap33efrbtfs+/UKS+z79JErsAVy5T78SLDbE/6v7yo99/U7ExkmfKh2ovT5CsaVpfV/psaqdPMmNr/R913Gnbv9XqZGjPvW9Xq+fe8q9oWjoC88nvmGZf+eqT6nlaj5fmWbuciu9xr4qIvPnOO0Te/o+qE9wDfURfblc3kP6JJevHtC3FMx7RN9Ht/tk385u3dc3f4bTPukd9Yb7qxeCt+azVpszwv9acfJRZyXylpX9y2Lu2HAPeGUnz/P2SYNC39a2x9G4dqG1L+8i+Ky+9zGyXneUbmeVVsQzu+/o3FqsZv7d5dKwv7T/jtMP3jdBkuV5FJ2/Tz9a5lkSdOEflAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8x34BLZEs06C4n+kAAAAASUVORK5CYII=>
+						</td>
+
+						<td width="60%">
+							<font face="ariel" size="4"
+								color="white">
+								Thanks for your interest, here
+								is a quick story of me and this
+								website.
+								<hr color="black">
+								Sravani who is a student of Vignan's Nirula is the founder of dora. In her own interest she created 
+								to  solve programming problems
+								in most efficient ways. Apart from
+								Sravani, she worked as a software
+								developer and data scientist as an
+								assistant professor.
+								<hr color="white">
+
+								I do my work mainly in C-Language,
+							        Python and JAVA	are my stronger section. Besides these I know Web Development and database as well.
+								<hr color="green">
+
+								This website is basically one of my
+								Web Development project which is
+								built using HTML only.
+								Here one can also find ideas for
+								projects in different languages.
+
+								Thanks again for reading this,
+								because of people like you, it
+								exists and prospers!
+								<hr color="black">
+								Cheers,
+								<br>
+								<b>Sravani</b>
+							</font>
+						</td>
+					</tr>
+				</table>
+				<hr color="tomato">
+				<hr color="tomato">
+				<hr color="tomato">
+			</td>
+		</tr>
+	</table>
+	
+	<table id="projects" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="PeachPuff">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="ariel" size="7"
+								color="black">
+								Projects
+							</font>
+							<hr color="black" width="90">
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10">
+							<font face="Times New Roman"
+								size="5" color="black">
+								<ul>
+									<li>
+										BMI Calculator
+										<a href="#" style="text-decoration:none">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="Peach">
+										Calculator
+										<a href="#" style="text-decoration:none" color="#c2c0c3">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Calendar
+										<a href="#" style="text-decoration:none"> ➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										ChatBot
+										<a href="#" style="text-decoration:none"> ➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Contact Saver
+										<a href="#" style="text-decoration:none">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Daily Quiz
+										<a href="#" style="text-decoration:none"> ➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Emplyoyee Record System
+										<a href="#" style="text-decoration:none">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Guess the Number-Game
+										<a href="#" style="text-decoration:none">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Random Password Generator
+										<a href="#" style="text-decoration:none">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Stone Paper Scissor
+										<a href="#" style="text-decoration:none">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Tic Tac Toe
+										<a href="#" style="text-decoration:none">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Tic Tac Toe(GUI)
+										<a href="#" style="text-decoration:none">➲
+										</a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										ToDo App
+										<a href="#" style="text-decoration:none">➲
+                                        </a>
+									</li>
+
+									<li>
+										<hr color="peach">
+										Travel Management System
+										<a href="#" style=
+											"text-decoration:none"> ➲
+										</a>
+									</li>
+								</ul>
+								<hr color="peach">
+								<hr color="light orange">
+								<hr color="peach">
+								<hr color="light orange">
+							</font>
+						</td>
+
+						<td width="45%">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNhr5jGmfUpaHLx-HvG6uDt-OoCWomCGO_sw&usqp=CAU.jpg" alt="Project" width="100%">
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<table id="achievements" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle">
+							<font face="ariel" size="7" color="tomato">
+								Achievements
+								<hr color="tomato" width="100">
+							</font>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<font face="ariel" size="4" color="white">
+								<ul>
+									<li>
+										<b>Intern at Sravani.</b>
+										<ul>
+											<li>
+												December,2022 - Present.
+											</li>
+											<li>
+												Write technical articles
+												on programming related topics.
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<b>Microsoft Learn Student Ambassador.</b>
+										<ul>
+											<li>
+												August,2022 - Present.
+											</li>
+											<li>
+												Conducted events and workshops on
+												different technologies.
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<hr color="black">
+										<hr color="black">
+										<hr color="black">
+										<b>Mentored HackTX.</b>
+										<ul>
+											<li>
+												October,2022.
+											</li>
+											<li>
+												Selected from Microsoft as Student
+												ambassador where I mentored students
+												in their projects.
+											</li>
+											<hr color="black">
+											<hr color="black">
+											<hr color="black">
+											<hr color="black">
+											<hr color="black">
+										</ul>
+									</li>
+
+								</ul>
+
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table id="contact" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="peachpuff">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="ariel" size="7"
+								color="black">
+								Contact
+							</font>
+							<hr color="black" width="90">
+						</td>
+					</tr>
+
+					<tr>
+						<td align="center" valign="top">
+							<table border="0" width="50%" cellpadding="15"
+								cellspacing="0" align="center" bgcolor="black">
+								<tr>
+									<td width="30%">
+										<hr color="black">
+										<font face="ariel" size="4"
+											color="#ffffff">
+											Name
+										</font>
+									</td>
+									<td width="70%">
+										<font face="ariel" size="4"
+											color="#ffffff">
+											<input type="text" size="40">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="ariel" size="4"
+											color="#ffffff">
+											Email
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="email" size="40">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="ariel" size="4"
+											color="#ffffff">
+											Number
+										</font>
+									</td>
+									<td width="70%">
+										<font face="ariel" size="4"
+											color="#ffffff">
+											<input type="number" size="12">
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										<font face="ariel" size="4"
+											color="#ffffff">
+											Message
+										</font>
+									</td>
+									<td width="70%">
+										<font face="ariel" size="4"
+											color="#ffffff">
+											<textarea rows="5"
+												cols="37">
+											</textarea>
+										</font>
+									</td>
+								</tr>
+								<tr>
+									<td width="30%">
+										
+									</td>
+									<td width="70%">
+										<button type="Submit">
+											<font face="ariel"
+												size="4" color="black">
+												<b>Submit</b>
+											</font>
+										</button>
+										<hr color="black">
+										<hr color="black">
+									</td>
+								</tr>
+							</table>
+						</td>
+
+					</tr>
+					<tr>
+						<td colspan="2">
+							
+							
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="tomato">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="13%" valign="top">
+							<b>LinkedIn</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>GitHub</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>HackerRank</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>SrAsh</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Twitter</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Instagram</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Email</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="black">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="80%" valign="top">
+							<font face="ariel"
+								color="tomato" size="5">
+								©Copyright 2050 by nobody.
+                                All rights reserved.
+							</font>
+						</td>
+
+						<td width="10%">
+							<font face="ariel" color="black" size="5">
+								<a href="#header" style="text-decoration:none">
+									<font face="ariel" color="tomato" size="6">
+										<b>TOP</b>
+									</font>
+								</a>
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+
+</body>
+
 </html>
